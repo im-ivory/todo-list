@@ -21,16 +21,24 @@ body {
   padding-top: 50px;
 }
 
+#loginForm input {
+  padding-bottom: 30px;
+}
+
 #loginForm input,
 #todo-form input {
   background-color: transparent;
   outline: none;
   border: none;
   font-size: 2rem;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 5px grey;
 }
 #loginForm input::placeholder,
 #todo-form input::placeholder {
-  color: black;
+  color: white;
+  text-shadow: 0 0 5px grey;
 }
 #loginForm button {
   display: none;
